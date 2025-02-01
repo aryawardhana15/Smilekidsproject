@@ -1,6 +1,6 @@
 import React from "react"
 import { courses } from "../components/assets/data/dummydata"
-import { FaBook } from "react-icons/fa"
+import { FaBook, FaClock } from "react-icons/fa"
 import { AiFillStar } from "react-icons/ai"
 import { NavLink } from "react-router-dom"
 import { HiOutlineArrowNarrowRight } from "react-icons/hi"
@@ -12,8 +12,8 @@ export const Courses = () => {
         <div className='w-4/5 m-auto'>
           <div className='heading mb-16'>
             <h1 className='text-3xl font-semibold text-black'>
-              Find The Right <br />
-              Online Course For You
+              Temukan paket <br />
+              terbaik untuk anda
             </h1>
             <span className='text-sm mt-2 block'>you don't have to struggle alone, you've got our assistance and help.</span>
           </div>
@@ -30,8 +30,8 @@ export const Courses = () => {
                 <div className='text p-3'>
                   <div className='flex justify-between items-center'>
                     <div className='flex items-center'>
-                      <FaBook />
-                      <span className='text-[14px] ml-2'> 10 lessons</span>
+                      <FaClock />
+                      <span className='text-[14px] ml-2'> 10 Jam</span>
                     </div>
                     <div className='flex items-center'>
                       <AiFillStar className='text-orange-500' />
@@ -44,11 +44,11 @@ export const Courses = () => {
                     <span className='text-[14px] ml-2'> sunil</span>
                   </div>
                 </div>
-                <div to='/' className='flex items-center justify-between border-t border-gray-200 p-3'>
-                  <span className='text-sm text-primary'>Free</span>
-                  <NavLink className='text-[14px] ml-2 flex items-center'>
+                <div to='/' className='flex items-center justify-end border-t border-gray-200 p-3'>
+                  <span className='text-sm text-primary px-3 text-right  '>{item.harga}</span>
+                  {/* <NavLink className='text-[14px] ml-2 flex items-center'>
                     Know Details <HiOutlineArrowNarrowRight />
-                  </NavLink>
+                  </NavLink> */}
                 </div>
               </div>
             ))}

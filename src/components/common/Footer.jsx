@@ -1,5 +1,5 @@
 import React from "react"
-import logImg from "../assets/images/logo-black.png"
+import logImg from "../assets/images/logo-smilekids.png"
 import { BsApple, BsGooglePlay } from "react-icons/bs"
 import { NavLink } from "react-router-dom"
 
@@ -26,8 +26,8 @@ export const Footer = () => {
       <footer className='bg-[#F3F4F8] py-10 pt-32 -mt-24'>
         <div className='container grid grid-cols-4 gap-5 md:grid-cols-2'>
           <div className='logo'>
-            <img src={logImg} alt='logImg' className='h-5' />
-            <span className='text-[14px]'>Great lesson ideas and lesson plans for ESL teachers! Educators can customize lesson plans to best.</span>
+            <img src={logImg} alt='logImg' className='h-6 w-10' />
+            <span className='text-[14px]'>Rencana kegiatan disesuaikan untuk mendukung perkembangan anak secara holistik..</span>
           </div>
 
           <li>

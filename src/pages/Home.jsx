@@ -3,7 +3,7 @@ import heroImg from "../components/assets/images/hero.png"
 import heroImgback from "../components/assets/images/hero-shape-purple.png"
 import { FiSearch } from "react-icons/fi"
 import { BsFillLightningChargeFill } from "react-icons/bs"
-import { FaGraduationCap } from "react-icons/fa"
+import { FaAcquisitionsIncorporated, FaGraduationCap } from "react-icons/fa"
 import { About } from "./About"
 import { Courses } from "./Courses"
 import { Instructor } from "./Instructor"
@@ -32,12 +32,12 @@ export const HomeContent = () => {
           <div className='flex items-center justify-center md:flex-col'>
             <div className='left w-1/2 text-black md:w-full'>
               <h1 className='text-4xl leading-tight text-black font-semibold'>
-                Welcome to Smile Kids <br /> Fun and Interactive Learning for Kids
+                Welcome to Smile Kids <br /> 
               </h1>
               <h3 className='text-lg mt-3'>
-                Unlock endless educational opportunities with 60+ expert instructors
+                Belajar dan bermain bersama kami
               </h3>
-              <span className='text-[14px]'>Get two passes for only $240 with unlimited class access!</span>
+              <span className='text-[14px]'>blablablabla blaala</span>
 
               {/* <div className='relative text-gray-600 focus-within:text-gray-400 mt-5'>
                 <input 
@@ -53,7 +53,7 @@ export const HomeContent = () => {
                 </span>
               </div> */}
               <span className='text-[14px]'>
-                Explore various fun learning subjects and choose the right class for your child!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim cupiditate tempore debitis expedita optio dolorum qui nam itaque, modi blanditiis, at nemo nobis. Esse, necessitatibus. Ut vitae neque vero quo.
               </span>
             </div>
 
@@ -70,8 +70,19 @@ export const HomeContent = () => {
                     <BsFillLightningChargeFill size={25} />
                   </div>
                   <div className='text flex flex-col items-start px-4'>
-                    <span className='text-sm text-black'>Congratulations!</span>
-                    <span className='text-[12px]'>Your child’s enrollment is complete.</span>
+                    <span className='text-sm text-black'>Fundamental untuk SD!</span>
+
+               
+                  </div>
+                </button>
+
+                <button className='bg-white shadow-md absolute top-80 left-10 z-30 p-2 flex items-center rounded-md'>
+                  <div className='icon w-10 h-10 text-white rounded-full flex items-center justify-center bg-orange-400'>
+                    <FaAcquisitionsIncorporated size={25} />
+                  </div>
+                  <div className='text flex flex-col items-start px-4'>
+                    <span className='text-sm text-black'>Karakter Islami Kokoh</span>
+                    
                   </div>
                 </button>
 
@@ -80,8 +91,8 @@ export const HomeContent = () => {
                     <FaGraduationCap size={25} />
                   </div>
                   <div className='text flex flex-col items-start px-4'>
-                    <span className='text-sm text-black'>450K+</span>
-                    <span className='text-[12px]'>Students Assisted</span>
+                    <span className='text-sm text-black'>450+</span>
+                    <span className='text-[12px]'>Lulusan Terampil</span>
                   </div>
                 </button>
               </div>

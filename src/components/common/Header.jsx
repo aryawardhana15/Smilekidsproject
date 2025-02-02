@@ -20,29 +20,15 @@ export const Header = () => {
             </div> */}
           </div>
           <nav className={open ? "mobile-view" : "desktop-view"}>
-          <ul className="flex flex-col md:flex-row items-center gap-4 md:gap-6 bg-white md:bg-transparent p-4 md:p-0 rounded-lg shadow-md md:shadow-none transition-all hover:bg-yellow-50 duration-300">
-  {LinkData.map((link) => (
-    <li 
-      key={link.id} 
-      onClick={() => setOpen(false)} 
-      className="w-full md:w-auto text-center md:text-left group"
-    >
-      <NavLink
-        className={({ isActive }) => 
-          `relative text-[15px] font-semibold px-3 py-2 transition-colors duration-300 
-          ${isActive ? "text-yellow-600 after:w-full" : "text-gray-700 hover:text-yellow-500"}
-          after:absolute after:left-1/2 after:-bottom-1 after:w-0 after:h-[2px] 
-          after:bg-yellow-500 after:transition-all after:duration-300 after:ease-in-out
-          after:-translate-x-1/2 hover:after:w-full group-hover:text-yellow-600`
-        }
-        to={link.url}
-      >
-        {link.title}
-      </NavLink>
-    </li>
-  ))}
-</ul>
-
+            <ul className='flex items-center gap-6'>
+              {LinkData.map((link) => (
+                <li key={link.id} onClick={() => setOpen(null)}>
+                  <NavLink className={({ isActive }) => (isActive ? "text-primary text-sm" : "text-[15px]")} to={link.url}>
+                    {link.title}
+                  </NavLink>
+                </li>
+              ))}
+            </ul>
           </nav>
           <div className='account flex items-center gap-5'>
             {/* <button>

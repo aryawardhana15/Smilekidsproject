@@ -37,7 +37,7 @@ export const HomeContent = () => {
               <h3 className='text-lg mt-3'>
                 Belajar dan bermain bersama kami
               </h3>
-              <span className='text-[14px]'>blablablabla blaala</span>
+            
 
               {/* <div className='relative text-gray-600 focus-within:text-gray-400 mt-5'>
                 <input 
@@ -52,9 +52,10 @@ export const HomeContent = () => {
                   </button>
                 </span>
               </div> */}
-              <span className='text-[14px]'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim cupiditate tempore debitis expedita optio dolorum qui nam itaque, modi blanditiis, at nemo nobis. Esse, necessitatibus. Ut vitae neque vero quo.
-              </span>
+             <span className='text-[14px]'>
+             Tempat terbaik untuk bermain, belajar, dan tumbuh bersama! Di Smile Kids, kami menciptakan lingkungan yang aman, penuh kasih, dan edukatif untuk mendukung perkembangan si kecil secara optimal.
+             </span>
+
             </div>
 
             <div className='right w-1/2 md:w-full relative'>
@@ -81,7 +82,7 @@ export const HomeContent = () => {
                     <FaAcquisitionsIncorporated size={25} />
                   </div>
                   <div className='text flex flex-col items-start px-4'>
-                    <span className='text-sm text-black'>Karakter Islami Kokoh</span>
+                    <span className='text-sm text-black'>Berkarakter tinggi</span>
                     
                   </div>
                 </button>

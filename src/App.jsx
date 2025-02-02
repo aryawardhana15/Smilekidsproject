@@ -1,11 +1,12 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom"
-import { Layout } from "./components/common/Layout"
-import { Home } from "./pages/Home"
-import { BlogSinglePage } from "./components/common/BlogSinglePage"
-import { About } from "./pages/About"
-import { Courses } from "./pages/Courses"
-import { Blog } from "./pages/Blog"
-import { Instructor } from "./pages/Instructor"
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Layout } from "./components/common/Layout";
+import { Home } from "./pages/Home";
+import { BlogSinglePage } from "./components/common/BlogSinglePage";
+import { About } from "./pages/About";
+import { Courses } from "./pages/Courses";
+import { Blog } from "./pages/Blog";
+import { Instructor } from "./pages/Instructor";
+import { CourseSinglePage } from './components/common/courseSinglePage';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route
-            path='/'
+            path="/"
             element={
               <Layout>
                 <Home />
@@ -21,7 +22,7 @@ function App() {
             }
           />
           <Route
-            path='/about'
+            path="/about"
             element={
               <Layout>
                 <About />
@@ -29,7 +30,7 @@ function App() {
             }
           />
           <Route
-            path='/courses'
+            path="/courses"
             element={
               <Layout>
                 <Courses />
@@ -37,7 +38,7 @@ function App() {
             }
           />
           <Route
-            path='/instructor'
+            path="/instructor"
             element={
               <Layout>
                 <Instructor />
@@ -45,7 +46,7 @@ function App() {
             }
           />
           <Route
-            path='/blog'
+            path="/blog"
             element={
               <Layout>
                 <Blog />
@@ -53,17 +54,25 @@ function App() {
             }
           />
           <Route
-            path='/single-blog'
+            path="/single-blog"
             element={
               <Layout>
                 <BlogSinglePage />
               </Layout>
             }
           />
+          <Route
+            path="/courseSinglepage"
+            element={
+              <Layout>
+                <CourseSinglePage />
+              </Layout>
+            }
+          />
         </Routes>
       </BrowserRouter>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -17,7 +17,7 @@ export const Courses = () => {
             </h1>
             <span className='text-sm mt-2 block'>you don't have to struggle alone, you've got our assistance and help.</span>
           </div>
-          <div className='grid grid-cols-3 gap-8 md:grid-cols-1'>
+          <div className='grid grid-cols-2 gap-10 md:grid-cols-1'>
             {courses.map((item) => (
               <div className='box rounded-lg shadow-shadow1 bg-white'>
                 <div className='images rounded-t-lg relative overflow-hidden h-40 w-ful'>
@@ -39,16 +39,20 @@ export const Courses = () => {
                     </div>
                   </div>
                   <h3 className='text-black my-4 font-medium h-10'>{item.title}</h3>
+                  <h4 className='text-black my-4 font-medium h-10'>{item.desc}</h4>
                   <div className='user flex items-center'>
                     <img className='rounded-full' src='https://secure.gravatar.com/avatar/75ec18a5bf959aab895830be3a78cb34?s=50&d=mm&r=g' alt='' />
                     <span className='text-[14px] ml-2'> sunil</span>
                   </div>
                 </div>
-                <div to='/' className='flex items-center justify-end border-t border-gray-200 p-3'>
-                  <span className='text-sm text-primary px-3 text-right  '>{item.harga}</span>
-                  {/* <NavLink className='text-[14px] ml-2 flex items-center'>
-                    Know Details <HiOutlineArrowNarrowRight />
-                  </NavLink> */}
+                <div to='/' className='flex items-center justify-beetween  border-t border-gray-200 p-3'>
+                  <NavLink to='/single-blog'>
+                  <span className='text-sm text-primary px-3   '>{item.harga}</span>
+                  </NavLink>
+                  <NavLink className='text-[14px] ml-auto flex items-center pr-3' to='/courseSinglepage'>
+                  Know Details <HiOutlineArrowNarrowRight />
+                  </NavLink>
+
                 </div>
               </div>
             ))}

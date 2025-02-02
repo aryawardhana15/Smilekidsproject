@@ -26,6 +26,7 @@ export const Blog = () => {
                   <NavLink to='/single-blog'>
                     <h3 className='text-black my-4 font-medium h-10'>{item.title}</h3>
                   </NavLink>
+                  
                   <div className='user flex items-center justify-between'>
                     <div className='flex items-center'>
                       <img className='rounded-full w-7 h-7 object-cover shadow-shadow1' src='https://secure.gravatar.com/avatar/75ec18a5bf959aab895830be3a78cb34?s=50&d=mm&r=g' alt='' />

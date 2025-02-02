@@ -20,26 +20,15 @@ export const Header = () => {
             </div> */}
           </div>
           <nav className={open ? "mobile-view" : "desktop-view"}>
-        <ul className='flex items-center gap-6 my-3 bg-white rounded-lg p-3 text-gray-600'>
-  {LinkData.map((link) => (
- <li key={link.id} onClick={() => setOpen(false)}>
- <NavLink
-   className={({ isActive }) =>
-     isActive
-       ? 'text-primary text-sm font-semibold bg-gradient-to-r from-yellow-300 via-yellow-500 to-yellow-700 rounded-lg py-2 px-4 transform scale-105 shadow-lg transition-all duration-300 ease-in-out'
-       : 'text-[15px] text-gray-600 bg-white rounded-lg py-2 px-4 transform scale-100 shadow-md transition-all duration-300 ease-in-out'
-   }
-   to={link.url}
- >
-   {link.title}
- </NavLink>
-</li>
-
-
-
-  ))}
-</ul>
-
+            <ul className='flex items-center gap-6'>
+              {LinkData.map((link) => (
+                <li key={link.id} onClick={() => setOpen(null)}>
+                  <NavLink className={({ isActive }) => (isActive ? "text-primary text-sm" : "text-[15px]")} to={link.url}>
+                    {link.title}
+                  </NavLink>
+                </li>
+              ))}
+            </ul>
           </nav>
           <div className='account flex items-center gap-5'>
             {/* <button>

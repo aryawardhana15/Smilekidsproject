@@ -34,10 +34,10 @@ export const Header = () => {
             {/* <button>
               <BiShoppingBag size={25} />
             </button> */}
-            {/* <button>Login</button>{" "}
+            {/* <button>Login</button>{" "} */}
             <button className='open-menu' onClick={() => setOpen(!open)}>
               <HiOutlineMenuAlt1 size={25} />
-            </button> */}
+            </button>
           </div>
         </div>
       </header>

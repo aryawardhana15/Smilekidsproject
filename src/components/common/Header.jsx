@@ -20,7 +20,7 @@ export const Header = () => {
             </div> */}
           </div>
           <nav className={open ? "mobile-view" : "desktop-view"}>
-            <ul className='flex items-center gap-6'>
+            <ul className='flex items-center gap-6 my-3 bg-white rounded-lg p-3 text-600'>
               {LinkData.map((link) => (
                 <li key={link.id} onClick={() => setOpen(null)}>
                   <NavLink className={({ isActive }) => (isActive ? "text-primary text-sm" : "text-[15px]")} to={link.url}>

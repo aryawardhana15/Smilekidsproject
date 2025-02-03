@@ -65,38 +65,40 @@ export const HomeContent = () => {
                   <img src={heroImg} alt='' className='h-full w-full object-contain z-20 relative' />
                 </div>
               </div>
-              <div className='content'>
-                <button className='bg-white shadow-md absolute top-56 left-0 z-30 p-2 flex items-center rounded-md'>
-                  <div className='icon w-10 h-10 text-white rounded-full flex items-center justify-center bg-orange-400'>
-                    <BsFillLightningChargeFill size={25} />
-                  </div>
-                  <div className='text flex flex-col items-start px-4'>
-                    <span className='text-sm text-black'>Fundamental untuk SD!</span>
+              <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center gap-6">
+    
+    {/* Button 1 - Fundamental untuk SD */}
+    <button className="bg-white shadow-lg p-3 flex items-center rounded-lg hover:scale-105 transition-all duration-300 z-40 mt-20 ">
+      <div className="icon w-12 h-12 text-white rounded-full flex items-center justify-center bg-orange-500">
+        <BsFillLightningChargeFill size={26} />
+      </div>
+      <div className="text flex flex-col items-start px-4">
+        <span className="text-sm text-gray-800 font-semibold">Fundamental untuk SD!</span>
+      </div>
+    </button>
 
-               
-                  </div>
-                </button>
+    {/* Button 2 - Berkarakter tinggi */}
+    <button className="bg-white shadow-lg p-3 flex items-center rounded-lg hover:scale-105 transition-all duration-300 z-40">
+      <div className="icon w-12 h-12 text-white rounded-full flex items-center justify-center bg-orange-500">
+        <FaAcquisitionsIncorporated size={26} />
+      </div>
+      <div className="text flex flex-col items-start px-4">
+        <span className="text-sm text-gray-800 font-semibold">Berkarakter tinggi</span>
+      </div>
+    </button>
 
-                <button className='bg-white shadow-md absolute top-80 left-10 z-30 p-2 flex items-center rounded-md'>
-                  <div className='icon w-10 h-10 text-white rounded-full flex items-center justify-center bg-orange-400'>
-                    <FaAcquisitionsIncorporated size={25} />
-                  </div>
-                  <div className='text flex flex-col items-start px-4'>
-                    <span className='text-sm text-black'>Berkarakter tinggi</span>
-                    
-                  </div>
-                </button>
+    {/* Button 3 - Lulusan Terampil */}
+    <button className="bg-white shadow-lg p-3 flex items-center rounded-lg hover:scale-105 transition-all duration-300 z-50">
+      <div className="icon w-12 h-12 text-white rounded-full flex items-center justify-center bg-orange-500">
+        <FaGraduationCap size={26} />
+      </div>
+      <div className="text flex flex-col items-start px-4">
+        <span className="text-sm text-gray-800 font-semibold">450+</span>
+        <span className="text-xs text-gray-600">Lulusan Terampil</span>
+      </div>
+    </button>
 
-                <button className='bg-white shadow-md absolute top-56 -right-32 z-30 p-2 md:top-96 md:-right-5 flex items-center rounded-md'>
-                  <div className='icon w-10 h-10 text-white rounded-full flex items-center justify-center bg-orange-400'>
-                    <FaGraduationCap size={25} />
-                  </div>
-                  <div className='text flex flex-col items-start px-4'>
-                    <span className='text-sm text-black'>450+</span>
-                    <span className='text-[12px]'>Lulusan Terampil</span>
-                  </div>
-                </button>
-              </div>
+  </div>
             </div>
           </div>
         </div>

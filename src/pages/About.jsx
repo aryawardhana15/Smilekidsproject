@@ -15,33 +15,12 @@ export const About = () => {
             <h1 className='text-3xl font-semibold text-black'> Kenapa harus Smile Kids </h1>
             <span className='text-sm mt-2 block'>you don't have to struggle alone, you've got our assistance and help.</span>
           </div>
-          <div className='grid grid-cols-1 gap-5 mt-5 md:grid-cols-2 lg:grid-cols-4 '>
-  <AboutCard 
-    color='bg-[#2D69F0]' 
-    icon={<FaUsers size={50} />} 
-    title='Pengasuhan Berkualitas' 
-    desc="Membantu anak tumbuh dengan pengalaman belajar menyenangkan."
-  /> 
-  <AboutCard 
-    color='bg-[#DD246E]' 
-    icon={<FaChalkboardTeacher size={50} />} 
-    title='Kegiatan Edukatif' 
-    desc="Menyediakan rencana kegiatan yang mendukung perkembangan anak secara holistik."
-  />
-  <AboutCard 
-    color='bg-[#8007E6]' 
-    icon={<FaRegSmile size={50} />} 
-    title='Fasilitas Nyaman' 
-    desc="Lingkungan yang aman dan nyaman untuk anak-anak belajar dan bermain."
-  />
-  <AboutCard 
-    color='bg-[#0CAE74]' 
-    icon={<FaHandsHelping size={50} />} 
-    title='Pendamping Profesional' 
-    desc="Guru dan pengasuh terlatih untuk memberikan perhatian penuh pada setiap anak."
-  />
-</div>
-
+          <div className='grid grid-cols-4 gap-5 mt-5 md:grid-cols-2  '>
+          <AboutCard color='bg-[#2D69F0]' icon={<FaUsers size={50} />} title='Pengasuhan Berkualitas' desc="Membantu anak tumbuh dengan pengalaman belajar dengan lingkungan yang nyaman." /> 
+          <AboutCard color='bg-[#DD246E]' icon={<FaChalkboardTeacher size={50} />} title='Kegiatan Edukatif' desc="Menyediakan rencana kegiatan yang mendukung tumbuh dan kembang anak secara holistik." />
+          <AboutCard color='bg-[#8007E6]' icon={<FaRegSmile size={50} />} title='Fasilitas Nyaman' desc="Lingkungan yang aman dan nyaman untuk anak-anak belajar dan bermain." />
+          <AboutCard color='bg-[#0CAE74]' icon={<FaHandsHelping size={50} />} title='Pendamping Profesional' desc="Guru dan pengasuh terlatih untuk memberikan perhatian penuh pada setiap anak." />
+          </div>
         </div>
       </section>
       <AboutContent />
@@ -53,7 +32,7 @@ export const AboutCard = (props) => {
     <div className={`box shadow-md p-5 py-8 rounded-md text-white ${props.color} cursor-pointer transition ease-in-out delay-150 hover:-translate-y-4 duration-300 `}>
       <div className='icon'>{props.icon}</div>
       <div className='text mt-5'>
-        <h4 className='text-lg font-semibold my-3'>{props.title}</h4>
+        <h4 className='text-sm font-semibold my-3'>{props.title}</h4>
         <p className='text-sm'>{props.desc}</p>
       </div>
     </div>

@@ -28,15 +28,33 @@ export const LinkData = [
 export const courses = [
   {
     id: 1,
-    cover: "../images/course-2-1.jpg",
-    title: "The Power of Podcast for Storytelling",
-    harga: "Rp.100.000",
+    cover: "../images/courses2.jpg",
+    title: "Smile Kids Daycare for Kids",
+    harga: "Rp.100.000(Pendaftaran)",
+    desc:"Smile Kids Daycare menyediakan layanan penitipan anak yang aman, nyaman, dan edukatif guna mendukung tumbuh kembang anak",
   },
   {
     id: 2,
-    cover: "../images/course-4-1.jpg",
-    title: "Fashion and Luxury Fashion in a Changing",
-    harga: "Rp.100.000",
+    cover: "../images/courses3.jpg",
+    title: "Smile Kids Preschool for Kids",
+    harga: "Rp.100.000 (pendaftaran)",
+    desc:"Smile Kids Daycare menyediakan layanan penitipan anak yang aman, nyaman, dan edukatif untuk  tumbuh kembang anak secara optimal.",
   },
 
+]
+export const berita = [
+  {
+    id: 1,
+  
+    title: "Smile Kids Daycare for Kids",
+    desc:"Smile Kids Daycare menyediakan layanan penitipan anak yang aman, nyaman, dan edukatif guna mendukung tumbuh kembang anak",
+
+    date:"21 September 2024",
+  },
+  {
+    id: 2,
+    title: "Smile Kids Preschool for Kids",
+    desc:"Smile Kids Daycare menyediakan layanan penitipan anak yang aman, nyaman, dan edukatif untuk  tumbuh kembang anak secara optimal.",
+    date:"15 November 2024",
+  },
 ]

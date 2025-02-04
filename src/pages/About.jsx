@@ -1,5 +1,5 @@
 import React from "react"
-import aboutImg from "../components/assets/images/about.jpg"
+import aboutImg from "../components/assets/images/about2.jpg"
 import aboutImgBanner from "../components/assets/images/about-banner.jpg"
 import imgs from "../components/assets/images/join1.png"
 import { FaBookDead, FaChild } from "react-icons/fa"
@@ -48,7 +48,7 @@ export const AboutContent = () => {
       <div className='img-group ml-24 mt-3'>
         <img src={imgs} alt='' />
         <span className='text-[14px]'>
-          Lebih dari <label className='text-black text-sm'>4,000+</label> anak telah bergabung
+          Lebih dari <label className='text-black text-sm'>400+</label> anak telah bergabung
         </span>
       </div>
     </div>

@@ -22,9 +22,10 @@ export const Blog = () => {
                 </div>
                 <div className='text p-3'>
                   <span className='text-[12px] bg-backbg p-1 px-3 text-white rounded-[5px]'>Lifestyle</span>
-                  <NavLink to='/single-blog'>
-                    <h3 className='text-black my-4 font-medium h-10'>{item.title}</h3>
-                  </NavLink>
+                  {/* <NavLink to='/single-blog'> */}
+                    <h3 className='text-black my-4 font-medium h-10'>{item.desc}</h3>
+             
+                  {/* </NavLink> */}
 
                   <div className='user flex items-center justify-between'>
                     {/* <div className='flex items-center'>

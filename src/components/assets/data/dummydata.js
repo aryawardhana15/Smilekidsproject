@@ -45,16 +45,24 @@ export const courses = [
 export const berita = [
   {
     id: 1,
-  
+    cover: "../images/blog2.jpg",
     title: "Smile Kids Daycare for Kids",
-    desc:"Smile Kids Daycare menyediakan layanan penitipan anak yang aman, nyaman, dan edukatif guna mendukung tumbuh kembang anak",
+    desc:"Smile Kids Belajar aturan lalu lintas",
 
     date:"21 September 2024",
   },
   {
     id: 2,
+    cover: "../images/blog3.jpg",
     title: "Smile Kids Preschool for Kids",
-    desc:"Smile Kids Daycare menyediakan layanan penitipan anak yang aman, nyaman, dan edukatif untuk  tumbuh kembang anak secara optimal.",
+    desc:"launching Paud Holistik integratif",
+    date:"15 November 2024",
+  },
+  {
+    id: 3,
+    cover: "../images/blog4.jpg",
+    title: "Smile Kids Preschool for Kids",
+    desc:"Program Makan sehat bersama Smile Kids",
     date:"15 November 2024",
   },
 ]

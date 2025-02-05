@@ -15,7 +15,7 @@ export const Courses = () => {
               Temukan paket <br />
               terbaik untuk anda
             </h1>
-            <span className='text-sm mt-2 block'>you don't have to struggle alone, you've got our assistance and help.</span>
+            <span className='text-sm mt-2 block'>Berikan paket terbaik untuk buah hati anak anda</span>
           </div>
           <div className='grid grid-cols-2 gap-10 md:grid-cols-1'>
             {courses.map((item) => (
@@ -47,7 +47,7 @@ export const Courses = () => {
                 </div>
                 <div to='/' className='flex items-center justify-beetween  border-t border-gray-200 p-3'>
                   <NavLink to='/courseSinglepage'>
-                  <span className='text-sm text-primary px-3   '>{item.harga}</span>
+                  <span className='text-sm text-primary px-3'>{item.harga}</span>
                   </NavLink>
                   <NavLink className='text-[14px] ml-auto flex items-center pr-3' to='/courseSinglepage'>
                   Know Details <HiOutlineArrowNarrowRight />

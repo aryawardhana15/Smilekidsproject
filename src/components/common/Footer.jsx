@@ -32,30 +32,18 @@ export const Footer = () => {
           </div>
 
           <li>
-            <h4 className='text-black text-sm font-semibold mb-5'>Company</h4>
-            <NavLink to='#' className=' text-[14px] block mb-2 '>
+            <h4 className='text-black text-sm font-semibold mb-5'>Website</h4>
+            <NavLink to='#' className=' text-[14px] block mb-2'>
+              About us
+            </NavLink>
+            <NavLink to='#' className=' text-[14px] block mb-2'>
               Contact
             </NavLink>
             <NavLink to='#' className=' text-[14px] block mb-2'>
-              Portfolio
+              Reviews
             </NavLink>
             <NavLink to='#' className=' text-[14px] block mb-2'>
-              Blog
-            </NavLink>
-            <NavLink to='#' className=' text-[14px] block mb-2'>
-              Our team
-            </NavLink>
-            <NavLink to='#' className=' text-[14px] block mb-2'>
-              Blog
-            </NavLink>
-            <NavLink to='#' className=' text-[14px] block mb-2'>
-              Get in Touch
-            </NavLink>
-            <NavLink to='#' className=' text-[14px] block mb-2'>
-              FAQ
-            </NavLink>
-            <NavLink to='#' className=' text-[14px] block mb-2'>
-              Latest news
+              Services
             </NavLink>
           </li>
           {/* <li>
@@ -73,7 +61,7 @@ export const Footer = () => {
               Landing
             </NavLink>
           </li> */}
-          <li>
+          {/* <li>
             <h4 className='text-black text-sm font-semibold mb-5'>Website</h4>
             <NavLink to='#' className=' text-[14px] block mb-2'>
               About us
@@ -87,7 +75,7 @@ export const Footer = () => {
             <NavLink to='#' className=' text-[14px] block mb-2'>
               Services
             </NavLink>
-          </li>
+          </li> */}
         </div>
       </footer>
     </>

@@ -31,14 +31,14 @@ export const courses = [
     cover: "../images/courses2.jpg",
     title: "Smile Kids Daycare for Kids",
     harga: "Rp.100.000(Pendaftaran)",
-    desc:"Smile Kids Daycare menyediakan layanan penitipan anak yang aman, nyaman, dan edukatif guna mendukung tumbuh kembang anak",
+    desc:"Menyediakan penitipan anak aman, nyaman, dan edukatif untuk tumbuh kembang optimal.",
   },
   {
     id: 2,
     cover: "../images/courses3.jpg",
     title: "Smile Kids Preschool for Kids",
-    harga: "Rp.100.000 (pendaftaran)",
-    desc:"Smile Kids Daycare menyediakan layanan penitipan anak yang aman, nyaman, dan edukatif untuk  tumbuh kembang anak secara optimal.",
+    harga: "Rp.100.000(pendaftaran)",
+    desc: "Preschool dengan lingkungan aman, nyaman, dan edukatif untuk mendukung tumbuh kembang anak."
   },
 
 ]

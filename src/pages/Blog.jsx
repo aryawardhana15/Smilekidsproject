@@ -21,7 +21,7 @@ export const Blog = () => {
                   <img src={item.cover} alt='' className='rounded-t-lg object-cover w-full h-full transition ease-in-out delay-150 cursor-pointer hover:scale-125 duration-300' />
                 </div>
                 <div className='text p-3'>
-                  <span className='text-[12px] bg-backbg p-1 px-3 text-white rounded-[5px]'>Lifestyle</span>
+                  <span className='text-[12px] bg-backbg p-1 px-3 text-white rounded-[5px]'>Program Seru</span>
                   {/* <NavLink to='/single-blog'> */}
                     <h3 className='text-black my-4 font-medium h-10'>{item.desc}</h3>
              

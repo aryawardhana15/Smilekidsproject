@@ -63,6 +63,6 @@ export const berita = [
     cover: "../images/blog4.jpg",
     title: "Smile Kids Preschool for Kids",
     desc:"Program Makan sehat bersama Smile Kids",
-    date:"15 November 2024",
+    date:"1 desember 2024",
   },
 ]

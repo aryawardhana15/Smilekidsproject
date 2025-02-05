@@ -18,14 +18,31 @@ export const Instructor = () => {
               <img src={intructor} alt='' className='rounded-t-lg object-cover w-full h-72' />
               <div className='categ flex flex-col gap-4 absolute top-5 z-30 m-3 p-8 items-center justify-center text-center'>
                 <h2 className='text-3xl text-white font-semibold'> Daftar Daycare Smilekids</h2>
-                <button className='text-[15px] py-2 px-4 border border-gray-200 rounded-md text-white'>Start a class today</button>
+                <a
+  href="https://forms.gle/hGGP4Gy98hh21zYdA"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-block text-[15px] py-2 px-4 border border-gray-200 rounded-md text-white bg-transparent"
+>
+  Start a class today
+</a>
+
               </div>
             </div>
             <div className='images rounded-lg relative overflow-hidden h-72 w-ful before:bg-backbg before:h-72 before:w-full before:absolute before:top-0 before:left-0 before:content before:z-10'>
               <img src={intructor2} alt='' className='rounded-t-lg object-cover w-full h-72 relative' />
               <div className='categ flex flex-col gap-4 absolute top-5 z-30 m-3 p-8 items-center justify-center text-center'>
                 <h2 className='text-3xl text-white font-semibold'>Daftar Preschool SmileKids</h2>
-                <button className='text-[15px] py-2 px-4 border border-gray-200 rounded-md text-white'>Start a class today</button>
+                <a
+  href="https://forms.gle/hGGP4Gy98hh21zYdA"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-block text-[15px] py-2 px-4 border border-gray-200 rounded-md text-white bg-transparent"
+>
+  Start a class today
+</a>
+
+
               </div>
             </div>
           </div>

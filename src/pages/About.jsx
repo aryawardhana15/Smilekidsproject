@@ -5,6 +5,7 @@ import imgs from "../components/assets/images/join1.png"
 import { FaBookDead, FaChild } from "react-icons/fa"
 import { AiOutlineCheck } from "react-icons/ai"
 import { FaUsers, FaChalkboardTeacher, FaRegSmile, FaHandsHelping } from 'react-icons/fa';
+import { NavLink } from "react-router-dom"
 
 export const About = () => {
   return (
@@ -73,9 +74,15 @@ export const AboutContent = () => {
             Pengajar berpengalaman dan profesional.
           </li>
         </ul>
-        <button className='px-5 py-2 border border-gray-300 rounded-md text-sm'>
-          Bergabung Sekarang
-        </button>
+        <a 
+  href="https://forms.gle/hGGP4Gy98hh21zYdA" 
+  target="_blank" 
+  rel="noopener noreferrer" 
+ className="inline-block px-5 py-2 border border-gray-700 rounded-md text-sm bg-yellow-400 text-white"
+>
+  Bergabung Sekarang
+</a>
+
       </div>
     </div>
   </div>

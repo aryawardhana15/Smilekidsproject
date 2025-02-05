@@ -90,8 +90,8 @@ export const ZigzagButtons = () => {
       <div className="flex justify-end w-full ">
         <ButtonComponent
           icon={<FaGraduationCap size={26} />}
-          title="450+ Lulusan Terampil"
-          subtitle="Lulusan Terampil"
+          title="Berakhlak Islami"
+          subtitle="Lulusan memiliki akhlak islami"
           className="mr-10"
         />
       </div>

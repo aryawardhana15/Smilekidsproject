@@ -1,8 +1,6 @@
 import React from "react";
 import hero2Img from "../components/assets/images/hero2.png";
 import heroImgback from "../components/assets/images/hero-shape-purple.png";
-import { FiSearch } from "react-icons/fi";
-import { BsFillLightningChargeFill } from "react-icons/bs";
 import { FaAcquisitionsIncorporated, FaGraduationCap } from "react-icons/fa";
 import { About } from "./About";
 import { Courses } from "./Courses";

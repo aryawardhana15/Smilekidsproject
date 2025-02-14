@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom"
 export const Footer = () => {
   return (
     <>
-    <section className='app w-4/5 m-auto rounded-lg shadow-shadow2 text-white flex md:flex-col bg-primary mt-16 relative z-10'>
+    <section className='app w-4/5 m-auto rounded-lg shadow-shadow2 text-white flex md:flex-col bg-[#FF7C54] mt-16 relative z-10'>
   <div className='left w-[60%] md:w-full p-10'>
     <h1 className='text-4xl font-semibold leading-tight'>
       Discover Fun & Learning with <br /> SmileKids!

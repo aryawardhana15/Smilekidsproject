@@ -14,10 +14,7 @@ export const Header = () => {
           <div className='logo flex items-center gap-0 '>
             <img src={LogoImg} alt='logo' className='h-9 w-14' /> 
             <h1 className=' gap-0.5 text-1xl font-semibold text-yellow-500'>SMILE KIDS</h1>
-            {/* <div className='category flex items-center text-sm gap-6'>
-              <HiViewGrid size={20} />
-              <span>category</span>
-            </div> */}
+          
           </div>
           <nav className={open ? "mobile-view" : "desktop-view"}>
             <ul className='flex items-center gap-6'>
@@ -31,10 +28,7 @@ export const Header = () => {
             </ul>
           </nav>
           <div className='account flex items-center gap-5'>
-            {/* <button>
-              <BiShoppingBag size={25} />
-            </button> */}
-            {/* <button>Login</button>{" "} */}
+            
             <button className='open-menu' onClick={() => setOpen(!open)}>
               <HiOutlineMenuAlt1 size={25} />
             </button>

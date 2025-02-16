@@ -18,7 +18,7 @@ export const Footer = () => {
       <label className='text-sm'>Daycare</label>
     </div>
     <div className='box flex gap-2 items-center px-4 py-3 bg-white text-black shadow-shadow1 rounded-sm'>
-      {/* <BsGooglePlay /> */}
+     
       <label className='text-sm'>Preschool</label>
     </div>
   </div>
@@ -46,36 +46,6 @@ export const Footer = () => {
               Services
             </NavLink>
           </li>
-          {/* <li>
-            <h4 className='text-black text-sm font-semibold mb-5'>Platform</h4>
-            <NavLink to='#' className=' text-[14px] block mb-2'>
-              Shop
-            </NavLink>
-            <NavLink to='#' className=' text-[14px] block mb-2'>
-              Pricing
-            </NavLink>
-            <NavLink to='#' className=' text-[14px] block mb-2'>
-              Blog
-            </NavLink>
-            <NavLink to='#' className=' text-[14px] block mb-2'>
-              Landing
-            </NavLink>
-          </li> */}
-          {/* <li>
-            <h4 className='text-black text-sm font-semibold mb-5'>Website</h4>
-            <NavLink to='#' className=' text-[14px] block mb-2'>
-              About us
-            </NavLink>
-            <NavLink to='#' className=' text-[14px] block mb-2'>
-              Contact
-            </NavLink>
-            <NavLink to='#' className=' text-[14px] block mb-2'>
-              Reviews
-            </NavLink>
-            <NavLink to='#' className=' text-[14px] block mb-2'>
-              Services
-            </NavLink>
-          </li> */}
         </div>
       </footer>
     </>

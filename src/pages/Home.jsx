@@ -1,5 +1,5 @@
 import React from "react";
-import hero2Img from "../components/assets/images/hero2.png";
+import hero2Img from "../components/assets/images/heromuslim.png";
 import heroImgback from "../components/assets/images/hero-shape-purple.png";
 import { FaAcquisitionsIncorporated, FaGraduationCap } from "react-icons/fa";
 import { About } from "./About";
@@ -46,21 +46,21 @@ export const HomeContent = () => {
                 <img
                   src={heroImgback}
                   alt=""
-                  className="absolute top-32 left-10 w-96 md:left-10"
+                  className="absolute top-32 translate-x-7 w-96  md:left-10 sm:top-12  sm:-translate-x-7 z-10"
                 />
                 <div className="img h-[85vh] w-full">
                   <img
                     src={hero2Img}
                     alt=""
-                    className="h-full w-full object-contain z-20 relative"
+                    className=" w-full object-contain sm:left-1/2 sm:-translate-x-7 md:top-px md:left-10 z-20 relative"
                   />
                 </div>
               </div>
 
-              {/* Panggil ZigzagButtons di sini */}
+              {/* Panggil ZigzagButtons di sini
               <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center gap-6">
                 <ZigzagButtons />
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -70,32 +70,32 @@ export const HomeContent = () => {
 };
 
 // Komponen ZigzagButtons dipisah
-export const ZigzagButtons = () => {
-  return (
-    <div className="flex flex-col items-center gap-6 mt-10 ">
+// export const ZigzagButtons = () => {
+//   return (
+//     <div className="flex flex-col items-center gap-6 mt-10 ">
     
 
-      {/* Button 2 (Kiri) */}
-      <div className="flex justify-start w-full mt-12">
-        <ButtonComponent
-          icon={<FaAcquisitionsIncorporated size={26} />}
-          title="Fundamental untuk SD!"
-          className="ml-10"
-        />
-      </div>
+//       {/* Button 2 (Kiri) */}
+//       <div className="flex justify-start w-full mt-12">
+//         <ButtonComponent
+//           icon={<FaAcquisitionsIncorporated size={26} />}
+//           title="Fundamental untuk SD!"
+//           className="ml-10"
+//         />
+//       </div>
 
-      {/* Button 3 (Kanan) */}
-      <div className="flex justify-end w-full ">
-        <ButtonComponent
-          icon={<FaGraduationCap size={26} />}
-          title="Berakhlak Islami"
-          subtitle="Lulusan memiliki akhlak islami"
-          className="mr-10"
-        />
-      </div>
-    </div>
-  );
-};
+//       {/* Button 3 (Kanan) */}
+//       <div className="flex justify-end w-full ">
+//         <ButtonComponent
+//           icon={<FaGraduationCap size={26} />}
+//           title="Berakhlak Islami"
+//           subtitle="Lulusan memiliki akhlak islami"
+//           className="mr-10"
+//         />
+//       </div>
+//     </div>
+//   );
+// };
 
 
 const ButtonComponent = ({ icon, title, subtitle, className }) => {

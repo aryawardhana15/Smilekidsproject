@@ -34,7 +34,7 @@ export const Instructor = () => {
                   href="https://forms.gle/hGGP4Gy98hh21zYdA"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block text-[15px] py-2 px-4 border border-gray-200 rounded-md text-white bg-transparent"
+                  className="inline-block text-[15px] py-2 px-4 border border-gray-200 rounded-md text-yellow-400 bg-transparent"
                 >
                   Start a class today
                 </a>
@@ -54,7 +54,7 @@ export const Instructor = () => {
                   href="https://forms.gle/hGGP4Gy98hh21zYdA"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block text-[15px] py-2 px-4 border border-gray-200 rounded-md text-white bg-transparent"
+                  className="inline-block text-[15px] py-2 px-4 border border-gray-200 rounded-md text-yellow-400 bg-transparent"
                 >
                   Start a class today
                 </a>
